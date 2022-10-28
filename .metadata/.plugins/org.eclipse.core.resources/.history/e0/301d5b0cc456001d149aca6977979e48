@@ -6,7 +6,6 @@ public class ThreadJava {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		/*Thread processando em paraelo*/
 		new Thread() {
 			public void run() {
 				/* Código da rotina que eu quero executar em paralelo */
@@ -19,7 +18,7 @@ public class ThreadJava {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					System.out.println("Executando alguma rotina: Envio de email, por exemplo! ");
+					System.out.println("Executando alguma rotina: Envio de email! ");
 				}
 				/* Fim do código em paralelo */
 			};

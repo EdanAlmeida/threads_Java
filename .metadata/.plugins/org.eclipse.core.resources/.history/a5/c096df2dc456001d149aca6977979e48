@@ -19,7 +19,7 @@ public class ThreadJava {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					System.out.println("Executando alguma rotina: Envio de email, por exemplo! ");
+					System.out.println("Executando alguma rotina: Envio de email! ");
 				}
 				/* Fim do código em paralelo */
 			};
