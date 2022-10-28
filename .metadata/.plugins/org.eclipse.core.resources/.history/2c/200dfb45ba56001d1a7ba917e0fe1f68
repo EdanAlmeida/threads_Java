@@ -1,0 +1,13 @@
+package executavel;
+
+public class SplitArray {
+
+	public static void main(String[] args) {
+		
+		String texto = "Edan, Java, 80, 70";
+		
+		
+
+	}
+
+}

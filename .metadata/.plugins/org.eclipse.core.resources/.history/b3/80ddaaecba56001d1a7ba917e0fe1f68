@@ -1,0 +1,17 @@
+package executavel;
+
+public class SplitArray {
+
+	public static void main(String[] args) {
+		
+		String texto = "Edan, Java, 80, 70";
+		
+		String[] valoresArray = texto.split(",");
+		
+		for (int i = 0; i < valoresArray.length; i++) {
+			System.out.println(valoresArray[i]);
+		}
+
+	}
+
+}

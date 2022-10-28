@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="classes.Pessoa"/>
+    <fullyQualifiedTypeName name="classes.Secretario"/>
+    <fullyQualifiedTypeName name="interfaces.PermitirAcesso"/>
+    <fullyQualifiedTypeName name="classesauxiliares.FuncaoAutenticacao"/>
+    <fullyQualifiedTypeName name="classes.Diretor"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="constantes.StatusAluno"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="excecao.ExcecaoProcessarNota"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="classes.Aluno"/>
+    <fullyQualifiedTypeName name="classes.Disciplina"/>
+</qualifiedTypeNameHistroy>

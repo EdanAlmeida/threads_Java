@@ -1,0 +1,13 @@
+package executavel;
+
+public class ArrayMatriz {
+
+	public static void main(String[] args) {
+		
+		int notas[][] = new int[1][3];
+		
+		
+
+	}
+
+}

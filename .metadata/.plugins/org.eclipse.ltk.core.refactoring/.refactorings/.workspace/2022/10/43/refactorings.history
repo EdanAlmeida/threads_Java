@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;heranca_polimorfismo&apos; to &apos;erros_excecoes_tratamento&apos;" description="Rename resource &apos;heranca_polimorfismo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/heranca_polimorfismo" name="erros_excecoes_tratamento" stamp="1666274423884" updateReferences="true"/>
+</session>

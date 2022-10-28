@@ -1,0 +1,22 @@
+package executavel;
+
+import javax.swing.JOptionPane;
+
+public class ArrayVetor {
+
+	public static void main(String[] args) {
+		
+		/*Array pode ser de todos os tipos de dados e objetos*/
+		
+		String n = JOptionPane.showInputDialog("Informe o número de posições: ");
+		int j = Integer.valueOf(n);
+		int[] notas = new int[j];
+		
+		for (int i = 0; i < notas.length; i++) {
+			notas[i] = i;
+			System.out.println(notas[i]);
+		}
+		
+	}
+
+}
