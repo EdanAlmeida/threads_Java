@@ -6,11 +6,6 @@ public class ThreadJava {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		/*O processamento é gerenciável pelo próprio Java levando em conta o processamento do computador
-		 * arquitetura do mesmo
-		 * tempo de processamento
-		 * performance etc.*/
-		
 		/*============================ THREAD 1 ============================*/
 		/*Thread processando paralelo envio email*/
 		new Thread() {
@@ -20,7 +15,7 @@ public class ThreadJava {
 
 					/* Executar o envio com tempo de parada ou determinado */
 					try {
-						Thread.sleep(2000);
+						Thread.sleep(1000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
