@@ -5,6 +5,7 @@ import javax.swing.JOptionPane;
 public class ThreadJava {
 
 	public static void main(String[] args) throws InterruptedException {
+
 			
 		/*============================ THREAD 1 ============================*/
 		/*Thread processando paralelo envio email*/
@@ -25,6 +26,7 @@ public class ThreadJava {
 		/* Fluxo do sistema */
 		JOptionPane.showMessageDialog(null, "Sistema continua executando para o usuário! ");
 	}
+	
 	
 	private static Runnable thread1 = new Runnable() {
 
