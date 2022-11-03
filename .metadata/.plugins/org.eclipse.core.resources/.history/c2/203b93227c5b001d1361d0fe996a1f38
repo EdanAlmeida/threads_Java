@@ -1,0 +1,11 @@
+package thread;
+
+public class TelaTimeThread {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
