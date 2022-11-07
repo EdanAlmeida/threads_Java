@@ -16,4 +16,7 @@
     <fullyQualifiedTypeName name="classes.Aluno"/>
     <fullyQualifiedTypeName name="classes.Disciplina"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JDialog"/>
+    <fullyQualifiedTypeName name="thread.TelaTimeThread"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
 </qualifiedTypeNameHistroy>
