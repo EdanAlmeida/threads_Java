@@ -131,8 +131,6 @@ public class TelaTimeThread extends JDialog {
 				thread1Time.stop();
 				thread2Time.stop();
 				
-				jButton2.setEnabled(false);
-				jButton.setEnabled(true);
 			}
 		});
 		
