@@ -31,7 +31,35 @@ public class TelaTimeThread extends JDialog {
 	private JButton jButton = new JButton("Start");
 	private JButton jButton2 = new JButton("Stop");
 	
+	private Runnable thread1 = new Runnable() {
+		@Override
+		public void run() {
+			while(true) {
+				mostraTempo.setText(new SimpleDateFormat("dd/MM/yyyy hh:mm.ss").
+						format(Calendar.getInstance().getTime()));
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	};
 	
+	private Runnable thread2 = new Runnable() {
+		@Override
+		public void run() {
+			while(true) {
+				mostraTempo2.setText(new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").
+						format(Calendar.getInstance().getTime()));
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	};
 	
 	private Thread thread1Time;
 	private Thread thread2Time;
@@ -117,35 +145,3 @@ public class TelaTimeThread extends JDialog {
 	}
 
 }
-
-
-/*
- * private Runnable thread1 = new Runnable() {
-		@Override
-		public void run() {
-			while(true) {
-				mostraTempo.setText(new SimpleDateFormat("dd/MM/yyyy hh:mm.ss").
-						format(Calendar.getInstance().getTime()));
-				try {
-					Thread.sleep(1000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-	};
-	
-	private Runnable thread2 = new Runnable() {
-		@Override
-		public void run() {
-			while(true) {
-				mostraTempo2.setText(new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").
-						format(Calendar.getInstance().getTime()));
-				try {
-					Thread.sleep(1000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-	};*/
